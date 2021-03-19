@@ -12,6 +12,7 @@ if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then
 	echo "After update or reboot license may be invalid"
 	echo "You can patch the nulled version anytime by using below command"
 	echo "To use nulled type ./p.sh and enjoy..."
+fi
 
 # REVBOOOOT
 echo "You will need to reboot this machine to load the correct kernel"
