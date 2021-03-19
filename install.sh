@@ -255,18 +255,25 @@ echo "https://$ip:4085/"
 echo "OR"
 echo "http://$ip:4084/"
 echo " "
-echo "Reboot ic  "
+echo "Without reboot all feature might not work...  "
 
 echo "Do you want Patch Nulled Version of virtulizor now? Y/N"
 read licNULL
 # NULLING VIRTULIZOR 
 if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then	
-	echo "Wait while i will do the magic..."
+	echo "Checking Virtulizor Version..."
+	echo ""
 	wget -O p.sh https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh
+	echo ""
+	echo ""
 	echo "Succesfully Downloaded virtulizor Patch..."
+	echo ""
 	echo "Doing the magic......"
+	echo ""
 	chmod 777 p.sh && ./p.sh 
+	echo ""
 	echo "Checking is license file is valid"
+	echo ""
 	echo ""
 	echo "Voila! Its nulled now"
 	echo ""
@@ -296,6 +303,6 @@ if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then
 	echo ""
 	echo "Virtulizor will not work fully unless you reboot"
 	echo ""
-	echo "TO REBOOT TYPE: echo """
+	echo "AFTER REBOOT YOU PATCH AGAIN BY TYPING ./p.sh -- TO REBOOT TYPE: reboot "
 	exit;
 fi
