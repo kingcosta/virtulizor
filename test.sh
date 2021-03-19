@@ -11,9 +11,10 @@ if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then
 	echo "For everything else hit me on https://github.com/python-911"
 	echo "After update or reboot license may be invalid"
 	echo "You can patch the nulled version anytime by using below command"
-	echo "To use nulled type ./p.sh and enjoy..."
-fi
-
+	echo "To use nulled type ./p.sh and enjoy...";
+else 
+	echo "Vist https://github.com/python-911 for more stuff";
+	
 # REVBOOOOT
 echo "You will need to reboot this machine to load the correct kernel"
 echo -n "Do you want to reboot now ? [y/N]"
