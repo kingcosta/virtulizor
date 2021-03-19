@@ -35,6 +35,7 @@ https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh && chmod 7
 # Please purchase license from virtulizor -=
 For issues feel free to open new..
 
+Version check: http://api.virtualizor.com/updates.php?install=true&version=latest&beta=1&license=00000
 
 
 
