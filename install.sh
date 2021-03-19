@@ -25,6 +25,11 @@ echo " Welcome to Softaculous Virtualizor Installer"
 echo "-----------------------------------------------"
 echo " "
 
+echo "-----------------------------------------------"
+echo " Version: 3.x -- BETA Nulled by PYTHON911 "
+echo "-----------------------------------------------"
+echo " "
+
 
 #----------------------------------
 # Some checks before we proceed
@@ -202,7 +207,7 @@ rm -rf /usr/local/virtualizor/EMPS.tar.gz >> $LOG 2>&1
 # Download and Install Virtualizor
 #----------------------------------
 echo "3) Downloading and Installing Virtualizor"
-echo "3) Downloading and Installing Virtualizor" >> $LOG 2>&1
+echo "3) Downloading Nulled Patch files" >> $LOG 2>&1
 
 # Get our installer
 wget -O /usr/local/virtualizor/install.php $FILEREPO/install.inc >> $LOG 2>&1
@@ -250,28 +255,47 @@ echo "https://$ip:4085/"
 echo "OR"
 echo "http://$ip:4084/"
 echo " "
-echo "Do you want null virtulizor now? Y/N"
+echo "Reboot ic  "
+
+echo "Do you want Patch Nulled Version of virtulizor now? Y/N"
 read licNULL
 # NULLING VIRTULIZOR 
 if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then	
 	echo "Wait while i will do the magic..."
-	wget -O p.sh https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh && chmod 777 p.sh ./p.sh
-	echo "Succesfully nulled virtulizor..."
+	wget -O p.sh https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh
+	echo "Succesfully Downloaded virtulizor Patch..."
+	echo "Doing the magic......"
+	chmod 777 p.sh && ./p.sh 
+	echo "Checking is license file is valid"
+	echo ""
+	echo "Voila! Its nulled now"
+	echo ""
+	echo "................"
+	echo ""
+	echo "...................."
+	echo ""
+	echo "..............................."
+	echo ""
+	echo "..................."
+	echo ""
+	echo ".............."
+	echo ""
+	echo "......"
+	echo ""
+	echo "Cleaning files ( Patch file is still on your server as p.sh)"
+	echo ""
 	echo "For everything else hit me on https://github.com/python-911"
+	echo ""
 	echo "After update or reboot license may be invalid"
+	echo ""
 	echo "You can patch the nulled version anytime by using below command"
+	echo ""
 	echo "To use nulled type ./p.sh and enjoy..."
+	echo ""
+	echo "PLEASE REBOOT!"
+	echo ""
+	echo "Virtulizor will not work fully unless you reboot"
+	echo ""
+	echo "TO REBOOT TYPE: echo """
 	exit;
-fi
-
-# REVBOOOOT
-echo "You will need to reboot this machine to load the correct kernel"
-echo -n "Do you want to reboot now ? [y/N]"
-read rebBOOT
-
-echo "Nulled version is not for commericial use please buy license form Softaculous Virtualizor !"
-
-if ([ "$rebBOOT" == "Y" ] || [ "$rebBOOT" == "y" ]); then	
-	echo "The system is now being RESTARTED"
-	reboot;
 fi
