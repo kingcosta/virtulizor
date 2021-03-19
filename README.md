@@ -13,7 +13,7 @@ By default installation is 100% untouched you will geta trail license once insta
 If you want to use nulled license you can null yourself see PATCH below for help...
 # Install Virtulizor 
 This will download and install Virtulizor beta 3.0.6 from virtulizor.com and isntall on your server \
-https://raw.githubusercontent.com/python-911/virtulizor/main/install.sh && chmod 777 install.sh \
+wget https://raw.githubusercontent.com/python-911/virtulizor/main/install.sh && chmod 777 install.sh 
 
 To check install guide here https://www.virtualizor.com/docs/install/ 
 
@@ -30,7 +30,7 @@ Still you can use virtulizor without limits . \
 Since i made this repo public : i have included patch files in main installer \
 Once installation is done it will ask you if you want to patch nulled press Y and then reboot.
 In case you need to null again after update or you have installad trail from virtulizor.com \
-https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh && chmod 777 patch.sh  ./patch.sh \
+wget https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh && chmod 777 patch.sh  ./patch.sh \
 
 # Please purchase license from virtulizor -=
 For issues feel free to open new..
